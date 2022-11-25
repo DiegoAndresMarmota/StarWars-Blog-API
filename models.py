@@ -60,7 +60,7 @@ class People(db.Model):
         db.session.commit()
 
     def update(self):
-        db.session.commit() 
+        db.session.commit()
 
     def delete(self):
         db.session.delete(self)
